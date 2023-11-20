@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Server\\BlazorEEcommerce.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\BlazorEEcommerce.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\BlazorEEcommerce.Client.csproj",
+        "projectName": "BlazorEEcommerce.Client",
+        "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\BlazorEEcommerce.Client.csproj",
+        "packagesPath": "C:\\Users\\pethersonamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pethersonamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj": {
+                "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Server\\BlazorEEcommerce.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Server\\BlazorEEcommerce.Server.csproj",
+        "projectName": "BlazorEEcommerce.Server",
+        "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Server\\BlazorEEcommerce.Server.csproj",
+        "packagesPath": "C:\\Users\\pethersonamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pethersonamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\BlazorEEcommerce.Client.csproj": {
+                "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Client\\BlazorEEcommerce.Client.csproj"
+              },
+              "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj": {
+                "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj",
+        "projectName": "BlazorEEcommerce.Shared",
+        "projectPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\BlazorEEcommerce.Shared.csproj",
+        "packagesPath": "C:\\Users\\pethersonamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pethersonamorim\\Documents\\estudos\\Blazor\\BlazorEcommerce\\BlazorEEcommerce\\BlazorEEcommerce\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pethersonamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
